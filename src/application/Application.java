@@ -2,6 +2,7 @@ package application;
 
 import boardGame.Board;
 import boardGame.Position;
+import chess.ChessMatch;
 
 public class Application {
 
@@ -17,8 +18,16 @@ public class Application {
 		
 		System.out.println(pos.toString());
 		
-		Board board = new Board(8,8);
+		Board board = new Board(8,7);
+		System.out.println(board.getPieces());
+		
+		
+		ChessMatch chessMatch = new ChessMatch();
+		UI.printBoard(chessMatch.getPieces());
 
 	}
+	
+	
+	
 
 }
