@@ -21,6 +21,7 @@ public class Application {
 		Board board = new Board(8,7);
 		System.out.println(board.getPieces());
 		
+		System.out.println();
 		
 		ChessMatch chessMatch = new ChessMatch();
 		UI.printBoard(chessMatch.getPieces());
