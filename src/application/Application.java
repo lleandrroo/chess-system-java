@@ -18,7 +18,7 @@ public class Application {
 		
 		System.out.println(pos.toString());
 		
-		Board board = new Board(8,7);
+		Board board = new Board(8,8);
 		System.out.println(board.getPieces());
 		
 		System.out.println();
